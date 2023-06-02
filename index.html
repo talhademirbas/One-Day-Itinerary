@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="script.js"></script>
+
+<head>
+    <title>One Day Itinerary</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+
+    <div id="cookie-overlay">
+        <div id="cookie-popup">
+          <p>This website uses cookies. For more information, you can visit the <a href="/cookies">Cookie Policy</a> page.</p>
+          <button id="accept-cookies" onclick="acceptCookies()">Accept</button>
+          <button id="reject-cookies" onclick="rejectCookies()">Reject</button>
+        </div>
+      </div>
+
+    <div class="header">
+        <div class="social">
+            <a href="https://www.youtube.com/"><img src="https://img.icons8.com/?size=1x&id=19318&format=png" /></a>
+            <a href="https://www.instagram.com/"><img
+                    src="https://img.icons8.com/?size=1x&id=nj0Uj45LGUYh&format=png" /></a>
+            <a href="https://twitter.com/"><img src="https://img.icons8.com/?size=512&id=5MQ0gPAYYx7a&format=png" /></a>
+        </div>
+    </div>
+    <div class="hero-image">
+        <div class="hero-text">
+            <h1>One Day Itinerary</h1>
+            <p>We help you explore magnificent cities in one day</p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="intro-section">
+            <h2>About One Day Itinerary</h2>
+            <p>One Day Itinerary is your go-to website for exploring amazing cities around the world in just one day. We
+                offer detailed itineraries, travel guides, recommended tours, the best local restaurants, and much more.
+                Whether you are a solo traveler or a couple, our website has something for everyone.</p>
+        </div>
+
+        <div class="destinations">
+            <a href="new-york.html" class="destination-card">
+                <img src="https://images.unsplash.com/photo-1501194811830-ebb130b29b24?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8bmV3JTIweW9ycmt8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+                    alt="New York">
+                <h3>New York</h3>
+                <p>From the Statue of Liberty to Central Park, explore the best of the Big Apple in just one day.</p>
+            </a>
+
+            <a href="paris.html" class="destination-card">
+                <img src="https://images.unsplash.com/photo-1612259230308-0b82f2a77cdf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fHBhcmlzJTIwZWlmZmVsJTIwdG93ZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+                    alt="Paris">
+                <h3>Paris</h3>
+                <p>Discover the city of love with our one day itinerary that covers the Eiffel Tower, Louvre Museum, and
+                    more.</p>
+            </a>
+
+            <a href="tokyo.html" class="destination-card">
+                <img src="https://images.unsplash.com/photo-1551641506-ee5bf4cb45f1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fHRva3lvfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                    alt="Tokyo">
+                <h3>Tokyo</h3>
+                <p>Experience the vibrant culture and cuisine of Tokyo with our one day itinerary that includes a visit
+                    to the famous Tsukiji Fish Market.</p>
+            </a>
+
+        </div>
+
+        <div class="about-section">
+            <h2>About Us</h2>
+            <p>One Day Itinerary is run by a team of travel enthusiasts who love exploring new cities and sharing their
+                experiences with others. Our goal is to help travelers make the most of their time in a city, even if
+                they only have one day to explore. If you have any questions or suggestions, please don't hesitate to
+                contact us.</p>
+        </div>
+        <iframe width="1198" height="300" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+        </iframe>
+        <div class="contact-section">
+            <h2>Contact Us</h2>
+            <form onsubmit="submitForm(event)" class="contact-form">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+    <footer>
+        <div>
+            <span>© 2023 One Day Itinerary</span>
+        </div>
+
+    </footer>
+</body>
+
+</html>
